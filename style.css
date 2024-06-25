@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url("images/wp.jpg");
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+#tform{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+#ttext{
+    width: 480px;
+    height: 40px;
+    border-radius: 14px;
+    font-size: 19px;
+}
+
+#tsubmit{
+    margin-left: 10px;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+#tul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.tbuttons{
+    display: flex;
+    gap: 10px;
+}
+
+.tbutton{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.timg{
+    width: 20px;
+    height: 20px;
+}
